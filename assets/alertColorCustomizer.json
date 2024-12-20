@@ -1,0 +1,53 @@
+{
+    "backgrounds":{
+		"LevelBrowserLayer": "FF0000FF",
+		"ScoresLayer": "FF770055",
+		"FriendRequestsLayer": "00FF00FF",
+		"FriendsLayer": "0000FF55",
+		"CommentsLayer": "00000000",
+		"LeaderBoardLayer": "000000FF",
+		"MessagesLayer": "FFFFFF77",
+		"AccountPageIcons": "FF00FFFF",
+		"AccCommentsLayer": "777777FF",
+		"ArtistsLayer": "00FFFFFF",
+		"DropDownLayers": "0000FFFF"
+    },
+	"cells":{
+		"LevelCell": {
+			"color": "CD5C5CFF",
+			"color2": "F08080FF"
+		},
+		"UserCell": {
+			"color": "CD5C5CFF",
+			"color2": "F08080FF"
+		},
+		"MessageCell": {
+			"color": "CD5C5CFF",
+			"color2": "F08080FF"
+		},
+		"StatsCell": {
+			"color": "FFD70077",
+			"color2": "FFFF0077"
+		},
+		"AchievementsCell": {
+			"color": "FFD70077",
+			"color2": "FFFF0077"
+		},
+		"CommentCell": {
+			"color": "6495EDFF",
+			"color2": "7B68EEFF"
+		},
+		"SongsCells": {
+			"color": "FFA9A9FF",
+			"color2": "FF8080FF"
+		}
+	},
+	"scale9Sprites":{
+		"SearchLayerInput": "FF0000FF",
+		"SearchLayerInputBG": "FF7700FF",
+		"SearchLayerQuickSearchBG": "0000FF55",
+		"SearchLayerDiff": "FFFFFFFF",
+		"SearchLayerLength": "000000FF",
+		"LevelInfoDescription": "00FFFF00"
+	}
+}
