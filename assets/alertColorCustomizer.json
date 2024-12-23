@@ -135,54 +135,54 @@
 		"color": "d12654",
 		"address": {
 			"r": "0x59D18",
-            "g": "0x59D19",
-            "b": "0x59D1B",
-            "a": ""
+      "g": "0x59D19",
+      "b": "0x59D1B",
+      "a": ""
 		}
 	},
 	"StatsCell2":{
 		"color": "0efa71",
 		"address": {
 			"r": "0x59D0E",
-            "g": "0x59D0F",
-            "b": "0x59D11",
-            "a": ""
+      "g": "0x59D0F",
+      "b": "0x59D11",
+      "a": ""
 		}
 	},
 	"CommentCell1_small":{
 		"color": "876b72",
 		"address": {
 			"r": "0x60F3D",
-            "g": "0x60F3E",
-            "b": "0x60F40",
-            "a": ""
+      "g": "0x60F3E",
+      "b": "0x60F40",
+      "a": ""
 		}
 	},
 	"CommentCell2_small":{
 		"color": "2f644e",
 		"address": {
 			"r": "0x60F33",
-            "g": "0x60F34",
-            "b": "0x60F36",
-            "a": ""
+      "g": "0x60F34",
+      "b": "0x60F36",
+      "a": ""
 		}
 	},
 	"CommentCell1":{
 		"color": "2f644e",
 		"address": {
 			"r": "0x60F65",
-            "g": "0x60F66",
-            "b": "0x60F68",
-            "a": ""
+      "g": "0x60F66",
+      "b": "0x60F68",
+      "a": ""
 		}
 	},
 	"CommentCell2":{
 		"color": "942aab",
 		"address": {
 			"r": "0x60F5B",
-            "g": "0x60F5C",
-            "b": "0x60F5E",
-            "a": ""
+      "g": "0x60F5C",
+      "b": "0x60F5E",
+      "a": ""
 		}
 	}
 }
