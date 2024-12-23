@@ -29,7 +29,7 @@ set(CMAKE_GENERATOR_PLATFORM x86)
 
 add_library(${PROJECT_NAME} SHARED 
     main.cpp
- "FastPatch.cpp" "FastPatch.h" "ColorRGBA.h")
+ "FastPatch.cpp" "FastPatch.h" )
 
  target_link_libraries(${PROJECT_NAME} 
      minhook

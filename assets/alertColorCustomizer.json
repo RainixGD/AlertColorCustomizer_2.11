@@ -1,53 +1,188 @@
 {
-    "backgrounds":{
-		"LevelBrowserLayer": "FF0000FF",
-		"ScoresLayer": "FF770055",
-		"FriendRequestsLayer": "00FF00FF",
-		"FriendsLayer": "0000FF55",
-		"CommentsLayer": "00000000",
-		"LeaderBoardLayer": "000000FF",
-		"MessagesLayer": "FFFFFF77",
-		"AccountPageIcons": "FF00FFFF",
-		"AccCommentsLayer": "777777FF",
-		"ArtistsLayer": "00FFFFFF",
-		"DropDownLayers": "0000FFFF"
-    },
-	"cells":{
-		"LevelCell": {
-			"color": "CD5C5CFF",
-			"color2": "F08080FF"
-		},
-		"UserCell": {
-			"color": "CD5C5CFF",
-			"color2": "F08080FF"
-		},
-		"MessageCell": {
-			"color": "CD5C5CFF",
-			"color2": "F08080FF"
-		},
-		"StatsCell": {
-			"color": "FFD70077",
-			"color2": "FFFF0077"
-		},
-		"AchievementsCell": {
-			"color": "FFD70077",
-			"color2": "FFFF0077"
-		},
-		"CommentCell": {
-			"color": "6495EDFF",
-			"color2": "7B68EEFF"
-		},
-		"SongsCells": {
-			"color": "FFA9A9FF",
-			"color2": "FF8080FF"
+	"GJListLayer_Background": {
+		"color": "9ddddd",
+		"address": {
+			"all": "0x15C02C"
 		}
 	},
-	"scale9Sprites":{
-		"SearchLayerInput": "FF0000FF",
-		"SearchLayerInputBG": "FF7700FF",
-		"SearchLayerQuickSearchBG": "0000FF55",
-		"SearchLayerDiff": "FFFFFFFF",
-		"SearchLayerLength": "000000FF",
-		"LevelInfoDescription": "00FFFF00"
+	"LeaderboardsLayer_Background": {
+		"color": "f05c41",
+		"address": {
+			"all": "0x15926F"
+		}
+	},
+	"FRequestProfilePage_GJCommentListLayer_Background": {
+		"color": "b32c6e",
+		"address": {
+			"all": "0x9C874"
+		}
+	},
+	"FriendsProfilePage_GJCommentListLayer_Background": {
+		"color": "a8322e",
+		"address": {
+			"all": "0x9D6A4"
+		}
+	},
+	"InfoLayer_GJCommentListLayer_Background": {
+		"color": "188812",
+		"address": {
+			"all": "0x1523AC"
+		}
+	},
+	"LevelLeaderboard_GJCommentListLayer_Background": {
+		"color": "9cdc61",
+		"address": {
+			"all": "0x17D5EC"
+		}
+	},
+	"MessagesProfilePage_GJCommentListLayer_Background": {
+		"color": "c5b58b",
+		"address": {
+			"all": "0x193E61"
+		}
+	},
+	"ProfilePage_Icons_Background":{
+		"color": "350939",
+		"address": {
+			"all": "0x20F447"
+		}
+	},
+	"ProfilePage_GJCommentListLayer_Background":{
+		"color": "ee8a87",
+		"address": {
+			"all": "0x2138A1"
+		}
+	},
+	"GJDropDownLayer":{
+		"color": "062185",
+		"address": {
+			"all": "0x113656"
+		}
+	},
+	"LevelSearchLayer_SearchInput":{
+		"color": "88f456",
+		"address": {
+			"r": "0x17DFF6",
+			"g": "0x17DFF7",
+			"b": "0x17DFF9",
+			"a": "0x17DF74"
+		}
+	},
+	"LevelSearchLayer_SearchInput_Background":{
+		"color": "4f7db5",
+		"address": {
+			"r": "0x17DF05",
+			"g": "0x17DF06",
+			"b": "0x17DF08",
+			"a": "0x17DEB1"
+		}
+	},
+	"LevelSearchLayer_QuickSearch_Background":{
+		"color": "404c79",
+		"address": {
+			"r": "0x17E419",
+			"g": "0x17E41A",
+			"b": "0x17E413",
+			"a": "0x17E3BC"
+		}
+	},
+	"LevelSearchLayer_DifficultyFilter_Background":{
+		"color": "98c994",
+		"address": {
+			"r": "0x17E939",
+			"g": "0x17E93A",
+			"b": "0x17E93C",
+			"a": "0x17E8DE"
+		}
+	},
+	"LevelSearchLayer_LengthFilter_Background":{
+		"color": "49abcb",
+		"address": {
+			"r": "0x17EC15",
+			"g": "0x17EC16",
+			"b": "0x17EC18",
+			"a": "0x17EBBA"
+		}
+	},
+	"InfoLayer_DescriptionArea":{
+		"color": "ff3af0",
+		"address": {
+			"r": "0x14FE01",
+			"g": "0x14FE02",
+			"b": "0x14FE0B",
+			"a": ""
+		}
+	},
+	"BasicCell1":{
+        "color": "d1c5fe",
+        "address": {
+            "r": "0x5C6D9",
+            "g": "0x5C6DA",
+            "b": "0x5C6DC",
+            "a": "0x5C70A"
+        }
+    },
+	"BasicCell2":{
+        "color": "f68f79",
+        "address": {
+            "r": "0x5C6CF",
+            "g": "0x5C6D0",
+            "b": "0x5C6D2",
+            "a": "0x5C70A"
+        }
+    },
+	"StatsCell1":{
+		"color": "d12654",
+		"address": {
+			"r": "0x59D18",
+            "g": "0x59D19",
+            "b": "0x59D1B",
+            "a": ""
+		}
+	},
+	"StatsCell2":{
+		"color": "0efa71",
+		"address": {
+			"r": "0x59D0E",
+            "g": "0x59D0F",
+            "b": "0x59D11",
+            "a": ""
+		}
+	},
+	"CommentCell1_small":{
+		"color": "876b72",
+		"address": {
+			"r": "0x60F3D",
+            "g": "0x60F3E",
+            "b": "0x60F40",
+            "a": ""
+		}
+	},
+	"CommentCell2_small":{
+		"color": "2f644e",
+		"address": {
+			"r": "0x60F33",
+            "g": "0x60F34",
+            "b": "0x60F36",
+            "a": ""
+		}
+	},
+	"CommentCell1":{
+		"color": "2f644e",
+		"address": {
+			"r": "0x60F65",
+            "g": "0x60F66",
+            "b": "0x60F68",
+            "a": ""
+		}
+	},
+	"CommentCell2":{
+		"color": "942aab",
+		"address": {
+			"r": "0x60F5B",
+            "g": "0x60F5C",
+            "b": "0x60F5E",
+            "a": ""
+		}
 	}
 }

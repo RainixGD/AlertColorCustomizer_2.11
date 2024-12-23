@@ -51,3 +51,12 @@ bool FastPatch::make(std::string addressString, std::string bytesString) {
 	patch(address, bytes);
 	return true;
 }
+
+bool FastPatch::make(size_t address, std::string bytesString) {
+	auto bytesOpt = stringToBytes(bytesString);
+	if (!bytesOpt.has_value()) return false;
+	auto bytes = bytesOpt.value();
+
+	patch(address, bytes);
+	return true;
+}
